@@ -46,4 +46,11 @@ anywhere within a function. Therefore, the value of `i` that will be printed aft
 
 16. If the operands are of different types, the equality operator (==) attempts to convert the operands to the same type before comparing. The strict equality operator (===) always considers operands of different types to be different.  
 17. The output is 'How are you?'. The first if-statement gets skipped because values of different type get converted to numbers. Since true is evaluated to 1, the first if-statement is false. The second if-statement is true because 2 is intuitively "non-empty", and thus is converted to true.
-19. 
+18. Check js file.
+19. The output is [6, 8, 10]. The order of logic is as follows:
+    * For every item in [1, 2, 3]:
+        * call `doSomething(item, function(x))`
+        * `doSomething(item, function(x))` returns `function(item + 2)`
+    Thus, we return the array where every item in the array is first added with 2, and this value is passed as an input to `function(x)`, which multiplies the value by 2. 
+20. Check js file.
+21. 
