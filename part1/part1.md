@@ -31,3 +31,17 @@ anywhere within a function. Therefore, the value of `i` that will be printed aft
     g. The output is '3undefined'. Everything is converted into a string first when adding to a string.
     
     h. The output is NaN. undefined is evaluated as NaN in mathematical expressions. Therefore, a valid output cannot be evaluated.
+### Comparison
+15. a. The output is true. When comparing values of different type, Javascript converts the values to numbers. The string '2' becomes the number 2.
+
+    b. The output is false. Strings are compared letter-by-letter. The character '2' is greater than the character '1'.
+    
+    c. The output is true. When comparing values of different type, the values get converted to numbers. The string '2' becomes the number 2.
+    
+    d. The output is false. A strict equality operator === checks the equality without type conversion. 2 is a different type than '2'.
+    
+    e. The output is false. When comparing values of different type, the values get converted to numbers. true is evaluated as 1.
+    
+    f. The output is true. Values that are intuitively "non-empty" become true in a Boolean conversion. Both values are then of the same type and same value. 
+
+16. If the operands are of different types, the equality operator (==) attempts to convert the operands to the same type before comparing. The strict equality operator (===) always considers operands of different types to be different.  
