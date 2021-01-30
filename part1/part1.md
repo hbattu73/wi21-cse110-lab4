@@ -17,7 +17,7 @@ anywhere within a function. Therefore, the value of `i` that will be printed aft
 ## Basic Operators & Type Conversion 
 ### Arithmetic
 14. a. The output is '32'. If you add a string to a number (or other value) everything is converted into a string first.
-    
+
     b. The output is 1. 3 is treated as a number here because we are subtracting, instead of adding. 
     
     c. The output is 3. null is evalued to 0 in mathematical expressions.
@@ -45,3 +45,5 @@ anywhere within a function. Therefore, the value of `i` that will be printed aft
     f. The output is true. Values that are intuitively "non-empty" become true in a Boolean conversion. Both values are then of the same type and same value. 
 
 16. If the operands are of different types, the equality operator (==) attempts to convert the operands to the same type before comparing. The strict equality operator (===) always considers operands of different types to be different.  
+17. The output is 'How are you?'. The first if-statement gets skipped because values of different type get converted to numbers. Since true is evaluated to 1, the first if-statement is false. The second if-statement is true because 2 is intuitively "non-empty", and thus is converted to true.
+19. 
