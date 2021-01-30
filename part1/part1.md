@@ -16,6 +16,16 @@ anywhere within a function. Therefore, the value of `i` that will be printed aft
 12. Variables defined using `const` cannot be redeclared or reassigned, which is what occurs inside the for-loop. 
 ## Basic Operators & Type Conversion 
 ### Arithmetic
+13. a. student[name]
+    
+    b. student['Grad Year']
+    
+    c. student.greeting()
+    
+    d. student['Favorite Teacher'].name
+    
+    e. student[courseLoad][0]
+ 
 14. a. The output is '32'. If you add a string to a number (or other value) everything is converted into a string first.
 
     b. The output is 1. 3 is treated as a number here because we are subtracting, instead of adding. 
@@ -53,4 +63,8 @@ anywhere within a function. Therefore, the value of `i` that will be printed aft
         * `doSomething(item, function(x))` returns `function(item + 2)`
     Thus, we return the array where every item in the array is first added with 2, and this value is passed as an input to `function(x)`, which multiplies the value by 2. 
 20. Check js file.
-21. 
+21. The output is 
+    > 1
+    > 4
+    > 3
+    > 2
